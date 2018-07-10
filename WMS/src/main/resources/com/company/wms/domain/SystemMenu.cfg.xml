@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.company.wms.domain">
+
+    <class name="SystemMenu" table="systemMenu">
+
+        <!--1.主键-->
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <!--2.普通属性-->
+        <property name="name" column="name"/>
+        <property name="sn" column="sn"/>
+        <property name="url" column="url"/>
+        <!--3.关联属性-->
+        <many-to-one name="parentMenu">
+            <column name="parent_id"/>
+        </many-to-one>
+
+    </class>
+
+</hibernate-mapping>

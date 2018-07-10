@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!--*****************1.配置常用的常量信息*****************-->
+    <!--1.配置开发者模式：开发模式false；发布模式true；-->
+    <constant name="struts.devMode" value="false"/>
+    <!--2.配置theme为简单模式-->
+    <constant name="struts.ui.theme" value="simple"/>
+
+    <!--*****************2.定义最基本的package*****************-->
+    <package name="basePkg" abstract="true" extends="struts-default">
+        <!--1.定义拦截器-->
+        <interceptors>
+            <interceptor name="loginInterceptor" class="com.company.wms.web.interceptor.LoginCheckInterceptor">
+            </interceptor>
+            <interceptor name="permissionInterceptor" class="com.company.wms.web.interceptor.PermissionInterceptor">
+                <!--可随便传入参数，只需要在拦截器设置set方法即可-->
+                <param name="noInterceptorActions">login</param>
+            </interceptor>
+
+            <interceptor-stack name="myStack">
+                <!--<interceptor-ref name="loginInterceptor"/>-->
+                <!--<interceptor-ref name="permissionInterceptor"/>-->
+                <interceptor-ref name="store">
+                    <param name="operationMode">AUTOMATIC</param>
+                </interceptor-ref>
+                <interceptor-ref name="paramsPrepareParamsStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="myStack"/>
+        <!--2.定义全局通用的result-->
+        <global-results>
+            <result name="login" type="dispatcher">/login.jsp</result>
+            <result name="error" type="dispatcher">WEB-INF/views/common/error.jsp</result>
+            <result name="no_permission" type="dispatcher">WEB-INF/views/common/nopermission.jsp</result>
+        </global-results>
+        <!--3.全局异常和结果集映射配置-->
+        <!--<global-exception-mappings>-->
+            <!--<exception-mapping exception="java.lang.Exception" result="error"></exception-mapping>-->
+        <!--</global-exception-mappings>-->
+    </package>
+
+    <!--*****************3.定义业务package*****************-->
+    <package name="servicPkg" namespace="/" extends="basePkg" strict-method-invocation="false">
+        <action name="login_*" class="loginAction" method="{1}">
+            <result name="main" type="redirectAction">main</result>
+            <interceptor-ref name="paramsPrepareParamsStack"/>
+        </action>
+        <action name="main" >
+            <result>WEB-INF/views/main.jsp</result>
+        </action>
+        <action name="systemMenu_*" class="systemMenuAction" method="{1}">
+            <result name="success" type="redirectAction">
+                <param name="actionName">systemMenu</param>
+                <param name="query.parentId">${systemMenu.parentMenu.id}</param>
+            </result>
+            <result name="list" type="dispatcher">WEB-INF/views/systemMenu/list1.jsp</result>
+            <result name="input" type="dispatcher">WEB-INF/views/systemMenu/input.jsp</result>
+        </action>
+        <action name="*_*" class="{1}Action" method="{2}">
+            <result name="success" type="redirectAction">{1}</result>
+            <result name="list" type="dispatcher">WEB-INF/views/{1}/list1.jsp</result>
+            <result name="input" type="dispatcher">WEB-INF/views/{1}/input.jsp</result>
+        </action>
+    </package>
+
+
+</struts>

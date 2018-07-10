@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.company.wms.domain">
+
+    <class name="Role" table="role">
+        <!--1.主键-->
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <!--2.普通属性-->
+        <property name="name" column="name"/>
+        <property name="sn" column="sn"/>
+        <!--3.关联属性-->
+        <!--多对多-->
+        <!-- 权限 -->
+        <set name="permissions" table="role_permissions">
+            <key column="role_id"></key>
+            <many-to-many class="Permission" column="permission_id"/>
+        </set>
+        <!-- 菜单 -->
+        <set name="systemMenus" table="role_menus">
+            <key column="role_id"></key>
+            <many-to-many class="SystemMenu" column="menu_id"/>
+        </set>
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,34 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="http://www.springframework.org/schema/beans         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--***************1.定义action***************-->
+    <!--登录action-->
+    <bean id="loginAction" class="com.company.wms.web.action.LoginAction" scope="prototype">
+        <property name="loginService" ref="loginService"/>
+    </bean>
+    <!--员工action-->
+    <bean id="employeeAction" class="com.company.wms.web.action.EmployeeAction" scope="prototype">
+        <property name="employeeService" ref="employeeService"/>
+        <property name="departmentService" ref="departmentService"/>
+        <property name="roleService" ref="roleService"/>
+    </bean>
+    <!--部门action-->
+    <bean id="departmentAction" class="com.company.wms.web.action.DepartmentAction" scope="prototype">
+        <property name="departmentService" ref="departmentService"/>
+    </bean>
+    <!--角色action-->
+    <bean id="roleAction" class="com.company.wms.web.action.RoleAction" scope="prototype">
+        <property name="roleService" ref="roleService"/>
+        <property name="permissionService" ref="permissionService"/>
+        <property name="systemMenuService" ref="systemMenuService"/>
+    </bean>
+    <!--权限action-->
+    <bean id="permissionAction" class="com.company.wms.web.action.PermissionAction" scope="prototype">
+        <property name="permissionService" ref="permissionService"/>
+    </bean>
+    <!--系统菜单action-->
+    <bean id="systemMenuAction" class="com.company.wms.web.action.SystemMenuAction" scope="prototype">
+        <property name="systemMenuService" ref="systemMenuService"/>
+    </bean>
+
+</beans>

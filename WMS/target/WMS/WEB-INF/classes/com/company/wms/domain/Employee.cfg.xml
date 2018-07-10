@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.company.wms.domain">
+
+    <class name="Employee" table="employee">
+        <!--1.主键-->
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <!--2.普通属性-->
+        <property name="name" column="name"/>
+        <property name="age" column="age"/>
+        <property name="email" column="email"/>
+        <property name="password" column="password"/>
+        <property name="admin" column="admin"/>
+        <!--3.关联属性-->
+        <!--多对一-->
+        <many-to-one name="depart">
+            <column name="dept_id"/>
+        </many-to-one>
+        <!--多对多-->
+        <set name="roles" table="employee_role">
+            <key column="employee_id"></key>
+            <many-to-many class="Role" column="role_id"/>
+        </set>
+    </class>
+
+</hibernate-mapping>

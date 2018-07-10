@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="http://www.springframework.org/schema/beans         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--***************1.定义Sevice***************-->
+    <!--1.登录loginService-->
+    <bean id="loginService" class="com.company.wms.web.service.impl.LoginServiceImpl">
+        <property name="employeeDAO" ref="employeeDao"/>
+    </bean>
+    <!--2.员工employeeService-->
+    <bean id="employeeService" class="com.company.wms.web.service.impl.EmployeeServiceImpl">
+        <property name="employeeDAO" ref="employeeDao"/>
+    </bean>
+    <!--3.部门departmentService-->
+    <bean id="departmentService" class="com.company.wms.web.service.impl.DepartmentServiceImpl">
+        <property name="departmentDAO" ref="departmentDAO"/>
+    </bean>
+    <!--4.橘色roleService-->
+    <bean id="roleService" class="com.company.wms.web.service.impl.RoleServiceImpl">
+        <property name="roleDAO" ref="roleDAO"/>
+    </bean>
+    <!--5.权限permissionService-->
+    <bean id="permissionService" class="com.company.wms.web.service.impl.PermissionServiceImpl">
+        <property name="permissionDAO" ref="permissionDAO"/>
+    </bean>
+    <!--6.系统菜单systemMenuService-->
+    <bean id="systemMenuService" class="com.company.wms.web.service.impl.SystemMenuServiceImpl">
+        <property name="systemMenuDAO" ref="systemMenuDAO"/>
+    </bean>
+
+    <!--***************2.定义AOP***************-->
+    <!--定义advice-->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="*" read-only="false"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="txServicePointcut" expression="execution(* com.company.wms.web.service.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txServicePointcut"/>
+    </aop:config>
+
+</beans>

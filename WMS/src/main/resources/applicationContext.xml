@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--***************导入dao、action、service的头文件***************-->
+    <import resource="classpath:applicationContext-dao.xml"/>
+    <import resource="classpath:applicationContext-service.xml"/>
+    <import resource="classpath:applicationContext-action.xml"/>
+
+    <!--***************定义数据库连接池信息(内部包含数据库最基本的连接信息：driver、url、username、password)***************-->
+    <!--引入db.properties配置文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!--定义数据库连接池对象-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!--数据库密码和解密|数据库监控-->
+        <property name="filters" value="config,stat"/>
+        <property name="connectionProperties" value="config.decrypt=true"/>
+    </bean>
+
+
+</beans>
