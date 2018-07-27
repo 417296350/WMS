@@ -199,8 +199,6 @@ $(function () {
 $(function () {
     $(".input_submit").click(function () {
         var targetOptions = $(".target option");
-        console.debug(targetOptions);
-        alert(1);
         $.each(targetOptions,function (index,item) {
             $(item).prop("selected",true);
         })

@@ -1,7 +1,9 @@
 package com.company.wms.web.service.impl;
 
+import com.alibaba.druid.sql.visitor.functions.Nil;
 import com.alibaba.fastjson.JSON;
 import com.company.wms.dao.ISystemMenuDAO;
+import com.company.wms.domain.Employee;
 import com.company.wms.domain.SystemMenu;
 import com.company.wms.query.impl.BaseQuery;
 import com.company.wms.result.PageResult;
@@ -36,9 +38,35 @@ public class SystemMenuServiceImpl implements ISystemMenuService{
     }
 
     @Override
+    public List<SystemMenu> getChildMenusByParentSnAndUser(String parentSn,Employee user) {
+        return systemMenuDAO.getChildMenusByParentSnAndUser(parentSn,user);
+    }
+
+    @Override
     public String getChildMenusJsonByParentSn(String parentSn) {
 
         List<SystemMenu> systemMenus = getChildMenusByParentSn(parentSn);
+
+        Map<String,Object> json = new HashMap<>();
+        List<Map<String,Object>> jsonArray = new ArrayList<>();
+
+        for (SystemMenu menu : systemMenus) {
+            jsonArray.add(menu.toJson());
+        }
+
+        return JSON.toJSONString(jsonArray);
+    }
+
+    public String getChildMenusJsonByParentSnAndUser(String parentSn, Employee user){
+
+        List<SystemMenu> systemMenus = null;
+
+        if (user.getAdmin() != null && user.getAdmin()==true ){
+            systemMenus = getChildMenusByParentSn(parentSn);
+        }else {
+            systemMenus = getChildMenusByParentSnAndUser(parentSn,user);
+            System.out.println(systemMenus.size());
+        }
 
         Map<String,Object> json = new HashMap<>();
         List<Map<String,Object>> jsonArray = new ArrayList<>();
@@ -124,6 +152,8 @@ public class SystemMenuServiceImpl implements ISystemMenuService{
         }
 
     }
+
+
 
 }
 

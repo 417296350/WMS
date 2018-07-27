@@ -43,47 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SystemMenuAction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SystemMenuAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/action/SystemMenuAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/utils/UserContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../../工具/Maven/localRepository/org/apache/struts/struts2-core/2.5.13/struts2-core-2.5.13.jar!/com/opensymphony/xwork2/ActionContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISystemMenuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/ISystemMenuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+            <state relative-caret-position="249">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,11 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>$</find>
-      <find>$.</find>
-      <find>$.get</find>
-      <find>redirectAction</find>
       <find>console</find>
       <find>login</find>
       <find>parentId</find>
@@ -131,6 +90,11 @@
       <find>debug</find>
       <find>rightMain</find>
       <find>select</find>
+      <find>1</find>
+      <find>&quot;1&quot;</find>
+      <find>保存</find>
+      <find>alert(1);</find>
+      <find>prin</find>
     </findStrings>
     <replaceStrings>
       <replace>wms</replace>
@@ -140,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/domain/Employee.java" />
         <option value="$PROJECT_DIR$/templates/TemplateDomain.cfg.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/generator/TemplateInfo.java" />
         <option value="$PROJECT_DIR$/templates/ITemplateService.ftl" />
@@ -164,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-action.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/company/wms/domain/Role.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/commonAll.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/system/role.js.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/system/role.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" />
@@ -175,22 +137,24 @@
         <option value="$PROJECT_DIR$/../../../../../../Mac/视频/JAVA5_14_WMS（项目）/WMS/空页面/list.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/zTreeStyle.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/query/impl/SystemMenuQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/ISystemMenuDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/EmployeeDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/action/RoleAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/action/EmployeeAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/action/BaseAction.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/SystemMenuDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/BaseDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/service/ISystemMenuService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/service/impl/SystemMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/domain/SystemMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/system/index.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/action/SystemMenuAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/domain/SystemMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/ISystemMenuDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/SystemMenuDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/service/ISystemMenuService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/service/impl/SystemMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/commonAll.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/wms/web/action/SystemMenuAction.java" />
       </list>
     </option>
   </component>
@@ -300,7 +264,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="wms" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WMS" type="b2602c69:ProjectViewProjectNode" />
@@ -327,35 +291,7 @@
               <item name="WMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="WMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +308,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20023838" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -645,11 +581,11 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4618182" weight="0.0" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5668016" visible="true" weight="0.20509091" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5668016" visible="true" weight="0.21090908" />
       <window_info anchor="bottom" id="Problems" order="8" />
       <window_info id="Web" order="2" sideWeight="0.331761" side_tool="true" weight="0.22327273" />
       <window_info id="JRebel" order="2" sideWeight="0.4331984" side_tool="true" weight="0.19927272" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14909092" />
+      <window_info anchor="right" id="Database" order="3" weight="0.14909092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.33013698" side_tool="true" weight="0.22327273" />
@@ -663,35 +599,36 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.40872726" side_tool="true" weight="0.22068965" />
-      <window_info id="Web" order="2" sideWeight="0.331761" side_tool="true" weight="0.22327273" />
+      <window_info anchor="bottom" id="Application Servers" order="14" />
+      <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.4331984" side_tool="true" weight="0.19927272" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="16" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4618182" weight="0.0" />
-      <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5668016" visible="true" weight="0.19636364" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info id="Designer" order="4" />
       <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4618182" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="4" sideWeight="0.33013698" side_tool="true" weight="0.22327273" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3170909" side_tool="true" weight="0.32689655" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14909092" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.06763636" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
-      <window_info anchor="right" id="Database" order="3" weight="0.14909092" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5912727" visible="true" weight="0.22068965" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.21745455" side_tool="true" weight="0.36" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5668016" visible="true" weight="0.21090908" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.3178182" side_tool="true" weight="0.40551725" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49672726" visible="true" weight="0.11310345" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49672726" weight="0.11310345" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.06763636" />
-      <window_info id="Favorites" order="5" sideWeight="0.33013698" side_tool="true" weight="0.22327273" />
+      <window_info id="Web" order="5" sideWeight="0.331761" side_tool="true" weight="0.22327273" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68218184" weight="0.33103448" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,7 +642,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="122" />
+      <option name="time" value="139" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -727,211 +664,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/system/login.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="uml://MAVEN/company:WMS:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>company:WMS:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="1234.5" y="150.0">company:WMS:1.0-SNAPSHOT</node>
-            <node x="0.0" y="0.0">org.projectlombok:lombok:jar:1.16.6</node>
-            <node x="99.0" y="0.0">junit:junit:jar:4.12</node>
-            <node x="180.0" y="0.0">mysql:mysql-connector-java:jar:5.1.42</node>
-            <node x="369.0" y="0.0">com.alibaba:druid:jar:1.0.31</node>
-            <node x="455.0" y="0.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="609.0" y="0.0">commons-lang:commons-lang:jar:2.6</node>
-            <node x="755.0" y="0.0">org.slf4j:slf4j-log4j12:jar:1.7.12</node>
-            <node x="885.0" y="0.0">org.apache.struts:struts2-core:jar:2.5.13</node>
-            <node x="1017.0" y="0.0">org.apache.struts:struts2-spring-plugin:jar:2.5.13</node>
-            <node x="1205.0" y="0.0">org.hibernate:hibernate-core:jar:5.2.16.Final</node>
-            <node x="1350.0" y="0.0">org.hibernate:hibernate-ehcache:jar:5.2.16.Final</node>
-            <node x="1519.0" y="0.0">org.springframework:spring-core:jar:5.0.5.RELEASE</node>
-            <node x="1645.0" y="0.0">org.springframework:spring-context:jar:5.0.5.RELEASE</node>
-            <node x="1791.0" y="0.0">org.springframework:spring-orm:jar:5.0.5.RELEASE</node>
-            <node x="1914.0" y="0.0">org.springframework:spring-aop:jar:5.0.5.RELEASE</node>
-            <node x="2036.0" y="0.0">org.springframework:spring-web:jar:5.0.5.RELEASE</node>
-            <node x="2160.0" y="0.0">org.springframework:spring-test:jar:5.0.5.RELEASE</node>
-            <node x="2283.0" y="0.0">org.aspectj:aspectjrt:jar:1.7.4</node>
-            <node x="2391.0" y="0.0">org.aspectj:aspectjweaver:jar:1.7.4</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:5.0.5.RELEASE">
-              <point x="6.947368421052715" y="-15.0" />
-              <point x="1274.4473684210527" y="60.0" />
-              <point x="1572.0" y="60.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="commons-lang:commons-lang:jar:2.6">
-              <point x="-13.894736842105203" y="-15.0" />
-              <point x="1253.6052631578948" y="80.0" />
-              <point x="672.0" y="80.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.42">
-              <point x="-24.315789473684163" y="-15.0" />
-              <point x="1243.1842105263158" y="110.0" />
-              <point x="264.5" y="110.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.7.4">
-              <point x="27.789473684210634" y="-15.0" />
-              <point x="1295.2894736842106" y="120.0" />
-              <point x="2327.0" y="120.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.hibernate:hibernate-ehcache:jar:5.2.16.Final">
-              <point x="3.473684210526244" y="-15.0" />
-              <point x="1270.9736842105262" y="50.0" />
-              <point x="1424.5" y="50.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:5.0.5.RELEASE">
-              <point x="13.894736842105203" y="-15.0" />
-              <point x="1281.3947368421052" y="80.0" />
-              <point x="1842.5" y="80.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.12">
-              <point x="-10.42105263157896" y="-15.0" />
-              <point x="1257.078947368421" y="70.0" />
-              <point x="810.0" y="70.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.0.5.RELEASE">
-              <point x="20.84210526315792" y="-15.0" />
-              <point x="1288.342105263158" y="100.0" />
-              <point x="2088.0" y="100.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:5.2.16.Final">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.apache.struts:struts2-spring-plugin:jar:2.5.13">
-              <point x="-3.473684210526244" y="-15.0" />
-              <point x="1264.0263157894738" y="50.0" />
-              <point x="1101.0" y="50.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.apache.struts:struts2-core:jar:2.5.13">
-              <point x="-6.947368421052715" y="-15.0" />
-              <point x="1260.5526315789473" y="60.0" />
-              <point x="941.0" y="60.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.7.4">
-              <point x="31.263157894736878" y="-15.0" />
-              <point x="1298.7631578947369" y="130.0" />
-              <point x="2451.5" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.6">
-              <point x="-31.263157894736878" y="-15.0" />
-              <point x="1236.2368421052631" y="130.0" />
-              <point x="39.5" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:5.0.5.RELEASE">
-              <point x="17.368421052631675" y="-15.0" />
-              <point x="1284.8684210526317" y="90.0" />
-              <point x="1965.0" y="90.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
-              <point x="-27.789473684210407" y="-15.0" />
-              <point x="1239.7105263157896" y="120.0" />
-              <point x="129.5" y="120.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.5.RELEASE">
-              <point x="24.315789473684163" y="-15.0" />
-              <point x="1291.8157894736842" y="110.0" />
-              <point x="2211.5" y="110.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:5.0.5.RELEASE">
-              <point x="10.42105263157896" y="-15.0" />
-              <point x="1277.921052631579" y="70.0" />
-              <point x="1708.0" y="70.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.0.31">
-              <point x="-20.84210526315792" y="-15.0" />
-              <point x="1246.657894736842" y="100.0" />
-              <point x="402.0" y="100.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="company:WMS:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="-17.368421052631675" y="-15.0" />
-              <point x="1250.1315789473683" y="90.0" />
-              <point x="522.0" y="90.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.32306477093206953" x="1256.0" y="90.0" />
-          <SelectedNodes>
-            <node>org.aspectj:aspectjweaver:jar:1.7.4</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../Mac/视频/JAVA5_14_WMS（项目）/WMS/空页面/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/error_css.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/basic_layout.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/login_css.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/main_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="148" column="9" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/common/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/common/user.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/common/page_close.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/common/nav_item_v.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1005,31 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://6ec64cef-0f3f-4b21-9c25-295467df1d10/schema/wms/table/systemmenu">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/dao/ISystemMenuDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/SystemMenuDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1075,41 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/impl/SystemMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/domain/SystemMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/system/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/ISystemMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../../工具/Maven/localRepository/org/apache/struts/struts2-core/2.5.13/struts2-core-2.5.13.jar!/org/apache/struts2/ServletActionContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1119,29 +795,167 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../../工具/Maven/localRepository/org/apache/struts/struts2-core/2.5.13/struts2-core-2.5.13.jar!/com/opensymphony/xwork2/ActionContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-1307">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/action/SystemMenuAction.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="522">
+          <caret line="177" column="10" lean-forward="true" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/systemMenu/input.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/systemMenu/list1.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="5509" column="4" selection-start-line="5509" selection-start-column="4" selection-end-line="5509" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/vo/SystemMenuVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/domain/SystemMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/dao/impl/SystemMenuDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/system/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/dao/ISystemMenuDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../工具/Maven/localRepository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/utils/UserContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="228">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/impl/SystemMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/service/ISystemMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/system/employee.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/common_show_msg.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/commonAll.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/wms/web/action/SystemMenuAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
         </state>
       </provider>
     </entry>

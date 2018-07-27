@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="/js/system/employee.js"></script>
 </head>
 <body>
-<%@ include file="/WEB-INF/views/common/common_show_msg.jsp"%>
+<%--<%@ include file="/WEB-INF/views/common/common_show_msg.jsp"%>--%>
 <s:form name="editForm" namespace="/" action="employee_saveOrUpdate" method="post" id="editForm">
 	<div id="container">
 		<div id="nav_links">

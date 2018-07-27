@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.company.wms.annotation.Permission;
 import com.company.wms.domain.SystemMenu;
 import com.company.wms.query.impl.SystemMenuQuery;
+import com.company.wms.utils.UserContext;
 import com.company.wms.web.service.ISystemMenuService;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.interceptor.annotations.InputConfig;
@@ -55,10 +56,10 @@ public class SystemMenuAction extends BaseAction {
         return K_LIST_JSP;
     }
 
-    // 保存更新操作
+    // 获取子菜单
     public String getChildMenusByParentSn() {
         try {
-            writeJSONTextToResponse(systemMenuService.getChildMenusJsonByParentSn(query.getParentSn()));
+            writeJSONTextToResponse(systemMenuService.getChildMenusJsonByParentSnAndUser(query.getParentSn(),UserContext.getUserFromSession()));
         }catch (Exception e){
             e.printStackTrace();
             addActionError(e.getMessage());
@@ -78,7 +79,6 @@ public class SystemMenuAction extends BaseAction {
             // 更新
             systemMenu = systemMenuService.get(systemMenu);
         }
-
         return K_INPUT_JSP;
     }
 

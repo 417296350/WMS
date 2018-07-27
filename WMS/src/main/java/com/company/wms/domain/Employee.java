@@ -16,7 +16,7 @@ public class Employee extends BaseDomain {
     private String age;          //员工年龄
     private String email;        //员工邮箱
     private String password;     //员工密码
-    private Boolean admin;  //超级管理员
+    private Boolean admin;       //超级管理员
 
     // 2.关联属性
     // 多对一

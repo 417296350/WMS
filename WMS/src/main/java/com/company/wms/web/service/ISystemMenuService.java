@@ -1,5 +1,6 @@
 package com.company.wms.web.service;
 
+import com.company.wms.domain.Employee;
 import com.company.wms.domain.SystemMenu;
 import com.company.wms.query.impl.BaseQuery;
 import com.company.wms.result.PageResult;
@@ -81,12 +82,28 @@ public interface ISystemMenuService {
      * @param parentSn 父菜单sn
      * @return 返回子菜单集合
      */
-    List<SystemMenu> getChildMenusByParentSn(String parentSn);
+    public List<SystemMenu> getChildMenusByParentSn(String parentSn);
+
+    /**
+     * 根据用户和父菜单sn获取当前用户所能看到的子菜单
+     * @param parentSn 父菜单sn
+     * @param user 用户
+     * @return 返回子菜单集合
+     */
+    public List<SystemMenu> getChildMenusByParentSnAndUser(String parentSn,Employee user);
 
     /**
      * 根据父菜单sn获取所有子菜单
      * @param parentSn 父菜单sn
      * @return 返回子菜单JSON字符串
      */
-    String getChildMenusJsonByParentSn(String parentSn);
+    public String getChildMenusJsonByParentSn(String parentSn);
+
+    /**
+     * 根据用户和父菜单sn获取当前用户所能看到的子菜单
+     * @param parentSn 父菜单sn
+     * @param user 用户
+     * @return 返回子菜单JSON字符串
+     */
+    public String getChildMenusJsonByParentSnAndUser(String parentSn, Employee user);
 }
